@@ -7,23 +7,13 @@ Creates a recommender system to suggest movies that align with user taste, disco
 * Algorithms that are utilized include KNNWithMeans, Singular Value Decompisition (SVD), and Collaborative Filtering (CF).
 
 ## Tech Stack
-* **Language:** SQL, Python  
-* **Libraries:** `pandas`, `mysql.connector`, `getpass`
-* **Visualization:** `matplotlib`
+* **Language:** Python  
+* **Libraries:** `pandas`, `numpy`, `sklearn`
+* **Visualization:** `matplotlib`, `seaborn`
   
 ## Requirements
 
-Connect with the Server
-
 ```bash
-try:
-    conn = connect(
-        host = "localhost",
-        user = input("Enter Username: "),
-        password = getpass("Enter Password: "),
-        database = "library"
-    )
-
-except Error as e:
-    print(e)```
+pip install scikit-surprise
+```
 
