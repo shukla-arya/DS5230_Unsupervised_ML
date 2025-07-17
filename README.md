@@ -4,7 +4,7 @@ Creates a recommender system to suggest movies that align with user taste, disco
 ## Features
 * Dataset acquired from Kaggle and contains over 27,000 samples.
 * Movies are suggested through two methods: user-user and item-item, in addition to use of association rules.
-* Algorithms that are utilized include KNNWithMeans, Singular Value Decompisition (SVD), and Collaborative Filtering (CF).
+* Utilized algorithms include KNNWithMeans, Singular Value Decompisition (SVD), and Collaborative Filtering (CF).
 
 ## Tech Stack
 * **Language:** Python  
